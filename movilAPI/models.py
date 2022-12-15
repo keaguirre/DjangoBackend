@@ -70,7 +70,7 @@ class Viaje(models.Model):
         verbose_name_plural='Viajes'
         ordering=['v_viaje_id','v_conductor_id', 'v_pasajero_id']
 
-    def __str__(self):
+    def __int__(self):
         return self.v_viaje_id
 
 class Solicitud(models.Model):
