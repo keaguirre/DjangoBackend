@@ -74,13 +74,13 @@ class Viaje(models.Model):
         return self.v_viaje_id
 
 class Solicitud(models.Model):
-    p_email = models.EmailField(primary_key=True,max_length=254, null=False, blank=False, verbose_name='Email_pasajero')
+    p_email = models.EmailField(primary_key=True,, null=False, blank=False, verbose_name='Email_pasajero')
     precio_oferta = models.IntegerField(default=0, verbose_name='Valor')
     p_comuna_destino = models.CharField(max_length=30, verbose_name='Comuna destino')
     p_direccion_destino = models.CharField(max_length=30, verbose_name='Dirección de destino')
     p_name = models.CharField(null=True,max_length=30, verbose_name='Nombre pasajero')
     solicitud_estado = models.CharField(null=True,max_length=30, verbose_name='Estado solicitud')
-    c_car = models.CharField('Auto',default='Sin auto', null=True)
+    c_car = models.CharField(default='Sin auto', null=True, max_length=254)
     class Meta:
         verbose_name='Solicitud'
         verbose_name_plural='Solicitudes'
