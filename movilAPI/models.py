@@ -80,7 +80,7 @@ class Solicitud(models.Model):
     p_direccion_destino = models.CharField(max_length=30, verbose_name='Dirección de destino')
     p_name = models.CharField(null=True,max_length=30, verbose_name='Nombre pasajero')
     solicitud_estado = models.CharField(null=True,max_length=30, verbose_name='Estado solicitud')
-    solicitud_car = models.CharField(max_length=30, verbose_name='auto_conductor_solicitud')
+    solicitud_car = models.CharField(max_length=30,default='Auto', verbose_name='Auto_solicitud_chofer', null=True)
     class Meta:
         verbose_name='Solicitud'
         verbose_name_plural='Solicitudes'
