@@ -1,16 +1,9 @@
-<h1 class="txt-center no-underline-title"> Te llevoAPP API</h1><br>
+# Te llevoAPP API<br>
 API desarrollada con Django y Django rest framework para servir usuarios, usuarios y solicitudes con el fin de administrar viajes para [Te LlevoAPP](https://github.com/keaguirre/prograMovil) la cual ejecuta viajes consumiendo este servicio.<br><br>
 
 # Características
-
-## Crear, leer (incluye detalle), actualizar y eliminar:
+Crear, leer (incluye detalle), actualizar y eliminar:
 - Conductores, pasajeros, autos, solicitudes y viajes.
-
-
-
-
-
-
 
 # Requerimientos
 - asgiref==3.5.2
@@ -27,12 +20,5 @@ API desarrollada con Django y Django rest framework para servir usuarios, usuari
 
 Incluidos en requirements.txt para su fácil instalación.
 
-
-<style>
-    .txt-center{
-        text-align: center;
-    }
-    .no-underline-title{
-        border-bottom: none;
-    }
-</style>
+# Imágenes
+![Screenshot](https://raw.githubusercontent.com/keaguirre/djangoBackend/master/Screenshots/web.png)
