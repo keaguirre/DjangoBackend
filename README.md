@@ -1,5 +1,5 @@
 # Te llevoAPP API<br>
-API desarrollada con Django, Django REST framework y PostgreSQL, desplegada en [render.com](www.render.com) para servir usuarios, solicitudes y viajes con el fin de administrar viajes para [Te LlevoAPP](https://github.com/keaguirre/prograMovil) quién ejecuta y administra viajes mediante este servicio. 
+API desarrollada con Django, Django REST framework y PostgreSQL, desplegada en [render.com](www.render.com) para servir usuarios, solicitudes y viajes con el fin de administrar viajes para [Te LlevoAPP](https://github.com/keaguirre/prograMovil) quién crea y administra viajes mediante este servicio. 
 ## Para su consumo se encuentra disponible en: https://backend-mobile.onrender.com/ <br><br>
 
 # Características
